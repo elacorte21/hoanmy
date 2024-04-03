@@ -64,12 +64,7 @@
                         
                     </div>
 					
-<!--					Greyson key-->
-<!--                    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2EjhB9B0QgDdsohBUU5HdnXMOYRRhmlg&callback=initMap&v=3&libraries=geometry"></script>-->
-					<!-- HM Temp key, oops -->
-<!--                    <script defer src="https:maps.googleapis.com/maps/api/js?key=AIzaSyAq9rmtz08nm2VsLdyF-DYvOPjascpXAXg&callback=initMap&v=3&libraries=geometry"></script>-->
-					<!-- HM current website key -->
-                    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5sCN33PQy-xrHF9PYNqBGxjsvOgityDM&callback=initMap&v=3&libraries=geometry"></script>
+                    <script defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&v=3&libraries=geometry"></script>
 
                 </div>
                 <div class="col-md-6">

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <clipPath id="clip-words">
+      <rect width="120" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="words" clip-path="url(#clip-words)">
+    <path id="Path_221" data-name="Path 221" d="M-19.85,154.776,1.468,45.891,36.233,124.6,72.244,45.891,91.4,154.776H75.72L65.947,93.643l-29.976,65.79L6.847,93.577l-10.889,61.2Z" transform="translate(23.85 -42.891)" fill="#02a0ac"/>
+  </g>
+</svg>

@@ -1,0 +1,564 @@
+/* Header - Start */
+@media only screen and (max-width: 35.500em) {
+    header {
+        height: 320px !important;
+    }
+}
+/* Header - End *?
+
+
+/* CTA - Start */
+.cta {
+    margin-top: -42.5px;
+}
+
+.cta .action {
+    color: #FFF;
+    font-weight: 200;
+    font-size: 25px;
+    border-radius: 17.5px;
+    height: 85px;
+    line-height: 80px;
+    padding-left: 50px;
+}
+
+.cta .action span, 
+.cta .action img {
+    display: inline-block;
+}
+
+
+.cta .action img {
+    position: relative;
+    top: -.5px;
+    max-width: 30px;
+}
+
+.cta a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.cta a:hover {
+    font-weight: 400;
+}
+
+.cta .action span {
+    position: relative;
+    left: 20px;
+    top: 3px;
+}
+
+.cta .action[action=find] {
+    background: #0299C6;
+}
+
+.cta .action[action=book] {
+    background: #8BCBD3;
+}
+
+.cta .action[action=plan] {
+    background: #03A0AC;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cta .action {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cta .container {
+        padding: 0;
+        max-width: unset;
+    }    
+
+    .cta {
+        margin-top: 0;
+    }
+
+    .cta .action {
+        border-radius: 0;
+    }
+}
+/* CTA - End */
+
+
+/* Introduction - Start */
+.introduction {
+    padding: 50px 0;
+}
+
+.introduction .title {
+    margin-bottom: 50px;
+}
+.introduction .title h1 {
+    color: #8CCBD3;
+}
+
+.introduction .title p {
+    font-weight: 200;
+}
+
+.introduction .title strong {
+    color: #03A0AC;
+}
+
+.introduction .vision-mission {
+    margin-top: 75px;
+}
+
+.introduction .vision-mission h1 {
+    color: #8CCBD3;
+}
+
+.introduction .vision-mission h1::before {
+    content: "";
+    position: absolute;
+    left: 37.5px;
+    margin-top: 10.5px;
+    width: 100px;
+    height: 100px;
+    background-image: url('images/logo-icon.svg');
+    background-repeat: no-repeat;
+
+}
+
+.introduction .vision-mission h1,
+.introduction .vision-mission p {
+    padding-left: 70px;
+}
+
+.introduction .vision-mission p {
+    font-weight: 200;
+}
+
+.introduction .vision-mission .vision {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.introduction .vision-mission .vision::after {
+    content: "";
+    height: 115px;
+    width: 2px;
+    top: 120px;
+    left: 51px;
+    display: block;
+    position: absolute;
+    background-color: #8CCBD3;
+}
+/* Introduction - End */
+
+
+
+/* Animation - Start */
+.animation {
+    padding: 150px 0;
+    padding-bottom: 40px;
+    margin-top: -150px;
+    background-color: #F7F7F7;
+}
+
+.animation .main {
+    text-align: center;
+}
+
+.animation .container {
+    max-width: 1400px;
+}
+
+.animation .main p {
+    display: block;
+    color: #02A0AC;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.animation .main span {
+    display: none;
+}
+.animation .main h1 {
+    text-align: center;
+    font-size: 150px;
+    color: #02A0AC;
+    display: inline-block;
+}
+
+.animation .main .word {
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px;
+    cursor: default;
+}
+
+.animation .main .word.N {
+    margin-right: 120px;
+}
+
+
+.animation .main .word.H h1 {
+    transition: all 0.2s linear;
+}
+
+.animation .main .word.H.active h1 {
+    position: relative;
+    animation: word .2s linear forwards;
+}
+.animation .main .word.H.active p {
+    position: absolute;
+    width: 200px;
+
+    animation: words .3s linear forwards;
+}
+.animation .main .word.H.active p::after {
+    content: '';
+    width: 1000px;
+    height: 1000px;
+    transform: scale(.20);
+    z-index: 99999;
+    position: absolute;
+    top: -290px;
+    left: -420px;
+    background-image: url('images/about/animation-bubble.svg');
+    background-repeat: no-repeat;
+}
+
+.animation .main .word.O.active h1 {
+    position: relative;
+    animation: word .2s linear forwards;
+}
+.animation .main .word.O.active p {
+    position: absolute;
+    width: 200px;
+
+    animation: words .3s linear forwards;
+}
+.animation .main .word.O.active p::after {
+    content: '';
+    width: 1000px;
+    height: 1000px;
+    transform: scale(.10) scaleX(-1);
+    z-index: 99999;
+    position: absolute;
+    top: -330px;
+    left: -470px;
+    background-image: url('images/about/animation-bubble.svg');
+    background-repeat: no-repeat;
+}
+
+.animation .main .word.A.active h1 {
+    position: relative;
+    animation: word .2s linear forwards;
+}
+.animation .main .word.A.active p {
+    position: absolute;
+    width: 200px;
+
+    animation: words .3s linear forwards;
+}
+.animation .main .word.A.active p::after {
+    content: '';
+    width: 1000px;
+    height: 1000px;
+    transform: scale(.20);
+    z-index: 99999;
+    position: absolute;
+    top: -290px;
+    left: -420px;
+    background-image: url('images/about/animation-bubble.svg');
+    background-repeat: no-repeat;
+}
+
+
+
+.animation .main .word.N.active h1 {
+    position: relative;
+    animation: word .2s linear forwards;
+}
+.animation .main .word.N.active p {
+    position: absolute;
+    width: 200px;
+
+    animation: words .3s linear forwards;
+}
+.animation .main .word.N.active p::after {
+    content: '';
+    width: 1000px;
+    height: 1000px;
+    transform: scale(.10) scaleX(-1);
+    z-index: 99999;
+    position: absolute;
+    top: -330px;
+    left: -440px;
+    background-image: url('images/about/animation-bubble.svg');
+    background-repeat: no-repeat;
+}
+
+.animation .main .word.M.active h1 {
+    position: relative;
+    animation: word .2s linear forwards;
+}
+.animation .main .word.M.active p {
+    position: absolute;
+    width: 200px;
+
+    animation: words-m .3s linear forwards;
+}
+.animation .main .word.M.active p::after {
+    content: '';
+    width: 1000px;
+    height: 1000px;
+    transform: scale(.20);
+    z-index: 99999;
+    position: absolute;
+    top: -290px;
+    left: -420px;
+    background-image: url('images/about/animation-bubble.svg');
+    background-repeat: no-repeat;
+}
+
+.animation .main .word.Y.active h1 {
+    position: relative;
+    animation: word .2s linear forwards;
+}
+.animation .main .word.Y.active p {
+    position: absolute;
+    width: 200px;
+
+    animation: words-y .3s linear forwards;
+}
+.animation .main .word.Y.active p::after {
+    content: '';
+    width: 1000px;
+    height: 1000px;
+    transform: scale(.10) scaleX(-1);
+    z-index: 99999;
+    position: absolute;
+    top: -330px;
+    left: -470px;
+    background-image: url('images/about/animation-bubble.svg');
+    background-repeat: no-repeat;
+}
+
+.animation .main .word.active p span {
+    display: block;
+    color: #212529;
+    font-weight: 200;
+    text-transform: none;
+    font-size: 14px;
+}
+
+
+.animation .main .ground img {
+    display: block;
+    width: 100%;
+    opacity: .5;
+    margin-top: 8px;
+} 
+
+.animation .main .word.H img, 
+.animation .main .word.O img,
+.animation .main .word.A img,
+.animation .main .word.N img,
+.animation .main .word.M img,
+.animation .main .word.Y img {
+    position: absolute;
+    margin-top: 90px;
+}
+
+.animation .main .word.H.active img, 
+.animation .main .word.O.active img,
+.animation .main .word.A.active img,
+.animation .main .word.N.active img,
+.animation .main .word.M.active img,
+.animation .main .word.Y.active img {
+    position: absolute;
+    margin-top: 27px;
+}
+
+.animation .main .word.H img {
+    margin-left: -70px;
+}
+
+.animation .main .word.A img {
+    margin-left: -70px;
+}
+.animation .main .word.M img {
+    margin-left: -160px;
+}
+.animation .main .word.Y img {
+    margin-top: 80px;
+    right: 50px;
+}
+
+.animation .main .word::last-child {
+    margin-right: 0;
+}
+
+@keyframes word {
+    100% {
+        transform: translateY(30px);
+    }
+}
+
+@keyframes words {
+    0% {
+        opacity: 0.0;
+    }
+
+    100% {
+        transform: translateY(-290px);
+    }
+}
+@keyframes words-m {
+    0% {
+        opacity: 0.0;
+    }
+
+    100% {
+        transform: translateY(-290px) translateX(-30px);
+    }
+}
+@keyframes words-y {
+    0% {
+        opacity: 0.0;
+    }
+
+    100% {
+        transform: translateY(-290px) translateX(20px);
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .animation .main h1 {
+        font-size: 150px;
+    }
+
+    .animation .container {
+        max-width: 1600px;
+    }
+
+    .animation .main .word {
+        display: inline-block;
+        text-align: center;
+        margin-right: 25px;
+        cursor: default;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .animation .main h1 {
+        font-size: 150px;
+    }
+
+    .animation .main .word.Y img {
+        margin-top: 80px;
+        right: unset;
+        margin-left: 80px;
+    }
+
+    .animation .container .row {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        height: 270px;
+    }
+
+    .animation .container .col-xs-12 {
+        display: inline-block;
+        float: none;
+    }
+
+    .animation .main .word {
+        display: inline-block;
+        text-align: center;
+        margin-left: 25px;
+        cursor: default;
+    }
+
+    .animation .main .word.H.active h1,
+    .animation .main .word.O.active h1,
+    .animation .main .word.A.active h1,
+    .animation .main .word.N.active h1,
+    .animation .main .word.M.active h1,
+    .animation .main .word.Y.active h1,
+
+    .animation .main .word.H.active p,
+    .animation .main .word.O.active p,
+    .animation .main .word.A.active p,
+    .animation .main .word.N.active p,
+    .animation .main .word.M.active p,
+    .animation .main .word.Y.active p {
+        animation: unset !important;
+    }
+
+    .animation .main .word.H.active img, 
+    .animation .main .word.O.active img,
+    .animation .main .word.A.active img,
+    .animation .main .word.N.active img,
+    .animation .main .word.M.active img,
+    .animation .main .word.Y.active img {
+        position: unset;
+        margin-top: unset;
+    }
+
+    .animation {
+        padding: 40px 0;
+        padding-bottom: 40px;
+        margin-top: 0;
+    }
+}
+/* Animation - End */
+
+
+
+
+/* Story - Start */
+.story {
+    padding: 50px 0;
+}
+
+.story .title {
+    margin-bottom: 50px;
+}
+.story .title h2 {
+    text-align: center;
+    color: #02A0AC;
+}
+
+.story .timeline {
+    padding: 20px 0; 
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(150, 150 , 150, .30);
+}
+
+.story .timeline:last-child {
+    border-bottom: unset;
+}
+
+.story .timeline .image img {
+    max-width: 100%;
+}
+
+.story .timeline .image,
+.story .timeline .text {
+    display: inline-block;
+}
+
+.story .timeline .text {
+    padding: 10px 0;
+}
+.story .timeline .text p {
+    font-weight: 200;
+}
+.story .timeline .text h4 {
+
+    color: #8CCBD3;
+}
+
+/* Story - End */
